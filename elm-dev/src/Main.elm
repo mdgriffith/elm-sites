@@ -37,16 +37,16 @@ main =
             , Font.sansSerif
             ]
         ]
-        (Ui.column [ Ui.centerX, Ui.centerY ]
+        (Ui.column [ Ui.centerX, Ui.centerY, Ui.spacing 8 ]
             [ Ui.row [ Ui.spacing 16 ]
                 [ Ui.el [ Font.size 256, Font.color colors.teal ] (Ui.text "Elm")
                 , Ui.column [ Ui.moveDown 16 ]
                     [ Ui.el [ Font.size 128, Font.color colors.gold ] (Ui.text "dev")
-                    , Ui.el [] (Ui.text "Coming soon")
+                    , Ui.el [] (Ui.text "Interactive editing")
                     ]
                 ]
             , Ui.row [ Font.italic ]
-                [ Ui.el [] (Ui.text "Follow ")
+                [ Ui.el [] (Ui.text "Coming soon, follow ")
                 , Ui.link [ Font.color colors.gold ]
                     { url = "https://twitter.com/mech_elephant"
                     , label = Ui.text "@mech_elephant"
