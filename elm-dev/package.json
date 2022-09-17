@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "BSD3",
   "scripts": {
-    "build": "elm make src/Main.elm --output dist/elm.js ; cp assets/index.html dist/index.html",
+    "build": "sh build.sh",
     "watch": "elm-watch hot"
   },
   "devDependencies": {
-    "elm-watch": "^1.0.2"
+    "elm-watch": "^1.0.2",
+    "terser": "^5.15.0"
   }
 }
