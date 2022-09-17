@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "BSD3",
   "scripts": {
-    "build": "sh build.sh",
+    "build": "bash build.sh",
     "watch": "elm-watch hot"
   },
   "devDependencies": {
