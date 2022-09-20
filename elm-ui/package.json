@@ -1,0 +1,14 @@
+{
+  "name": "elm-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "BSD3",
+  "scripts": {
+    "build": "bash build.sh",
+    "watch": "elm-watch hot"
+  },
+  "devDependencies": {
+    "elm-watch": "^1.0.2",
+    "terser": "^5.15.0"
+  }
+}
